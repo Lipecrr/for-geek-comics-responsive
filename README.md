@@ -3,8 +3,7 @@ Utilizados HTML e CSS.
 
 ## Integrantes do grupo: 
 - [Felipe Fernando Corrêa](https://github.com/Lipecrr)
-- [Gustavo de Souza](https://github.com/GustavoDeSZ)
-- [Carlos Eduardo Felix Junior](https://github.com/Carlos-EF)
+
 ## Demonstraçäo
 [Sistema](https://gustavodesz.github.io/trabalho-2025-07-16/index.html)
 
