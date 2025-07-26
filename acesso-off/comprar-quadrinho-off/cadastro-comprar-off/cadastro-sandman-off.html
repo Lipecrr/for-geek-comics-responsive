@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../../css/style.css">
+    <link rel="stylesheet" href="../../../css/cadastro.css">
+    <link rel="icon" href="../../../css/assets/francisco-cabeça.png">
+    <title>Cadastro</title>
+</head>
+
+<body>
+    <header>
+        
+        <div class="letreiro">
+            <h2>FOR GEEK</h2>
+            <div class="icone"></div>
+            <H2>COMICS</H2>
+        </div>
+        <nav>
+            <a class="nav-botao" href="../login-comprar-off/login-comprar-off-sandman.html">Voltar</a>
+        </nav>
+    </header>
+
+    <form action="../login-comprar-off/login-comprar-off-sandman.html" method="get">
+        <div class="cadastro">
+            <h2>Seja Um Nerd Conosco!</h2>
+            <label for="campo-nome">Nome:</label>
+            <input type="text" minlength="3" maxlength="40" required id="campo-nome" name="Nome"
+                placeholder="Nome e sobrenome.">
+        </div>
+
+        <div class="cadastro">
+            <label for="campo-nascimento">Data de Nascimento:</label>
+            <input type="date" required id="campo-nascimento" name="Data de Nascimento">
+        </div>
+
+        <div class="cadastro">
+            <label for="campo-email">E-mail:</label>
+            <input type="email" required id="campo-email" name="E-mail" placeholder="Digite seu e-mail aqui.">
+        </div>
+
+        <div class="cadastro">
+            <label for="campo-senha">Senha:</label>
+            <input type="password" required id="campo-senha" name="Senha" placeholder="Crie sua senha." minlength="8"
+                maxlength="30">
+        </div>
+
+        <div class="cadastro">
+            <label for="campo-cel">Celular:</label>
+            <input type="tel" required id="campo-cel" name="Celular" minlength="13" maxlength="13" title="XX XXXXX-XXXX"
+                placeholder="00 00000-0000">
+        </div>
+
+        <div class="cadastro">
+            <label for="campo-cpf">CPF:</label>
+            <input type="text" required id="campo-cpf" name="CPF" minlength="14" maxlength="14" title="XXX.XXX.XXX-XX"
+                placeholder="000.000.000-00">
+        </div>
+
+        <h2>Endereço.</h2>
+
+        <div class="cadastro">
+            <label for="campo-rua">Logradouro:</label>
+            <input type="text" required id="campo-rua" name="Logradouro" placeholder="Ex.: Gotham City.">
+        </div>
+
+        <div class="cadastro">
+            <label for="campo-cep">CEP:</label>
+            <input type="text" required id="campo-cep" name="CEP" minlength="10" maxlength="10" title="XX.XXX-XXX"
+                placeholder="00.000-000">
+        </div>
+
+        <h2>Tipo:</h2>
+        <div class="cadastro">
+            <input type="radio" required id="campo-casa" name="escolha" value="casa">
+            <label for="campo-casa">Casa.</label>
+
+            <input type="radio" required id="campo-apartamento" name="escolha" value="Apartamento">
+            <label for="campo-apartamento">Apartamento.</label>
+        </div>
+
+        <div class="cadastro">
+            <label for="campo-complemento">Complemento:</label>
+        </div>
+
+        <textarea id="campo-complemento" name="Complemento" rows="10" cols="50"></textarea>
+
+        <div class="botao">
+            <button class="enviar" type="submit">Cadastrar</button>
+        </div>
+    </form>
+</body>
+<footer>
+    <h3>Desenvolvido pela equipe FGC</h3>
+</footer>
+</html>

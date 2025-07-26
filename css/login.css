@@ -1,0 +1,75 @@
+h2 {
+  color: #fff;
+  text-align: center;
+}
+
+.div-login {
+  background-color: #442222;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: #d62839 0px 0px 10px, #d62839 0px 0px 200px;
+  width: 200px;
+  height: 300px;
+  text-align: center;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 200px;
+  color: #fff;
+  font-size: 13px;
+}
+
+input {
+  width: 200px;
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 2px solid #070707;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button {
+  width: 150px;
+  padding: 10px 5px;
+  margin-top: 1px;
+  border: solid 2px #000000;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.botao-login {
+  background-color: #e63946;
+  color: #fff;
+}
+
+.botao-login:hover {
+  background-color: #d62839;
+  transition: 0.3s;
+}
+
+
+.botao-cadastro:hover {
+  background-color: #35607d;
+  transition: 0.3s;
+}
+
+.botao-cadastrar {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.botao-cadastro {
+  background-color: #457b9d;
+  width: 135px;
+  padding: 10px 5px;
+  border: solid 2px #000000;
+  border-radius: 5px;
+  margin-top: 10px;
+  font-size: 15px;
+  text-decoration: none;
+  color: #fff;
+}

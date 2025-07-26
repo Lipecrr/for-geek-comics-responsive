@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="../../css/comprar.css">
+    <link rel="icon" href="../../css/assets/francisco-cabeça.png">
+    <title>Pagamento</title>
+</head>
+
+<body>
+    <div id="page-container">
+        <div id="content-wrap">
+            <header>
+                <div class="letreiro">
+                    <h2>GEEK</h2>
+                    <div class="icone"></div>
+                    <H2>COMICS</H2>
+                </div>
+                <nav>
+                    <a class="nav-botao" href="../produtos.html">Voltar</a>
+                </nav>
+            </header>
+            <main>
+                <div class="corpo-comprar">
+
+                    <div class="img-comprar">
+                        <img src="../../css/assets/reino-do-amanha.png" alt="">
+                    </div>
+                    <!--Pega a quantidade e multiplica com o valor do quadrinho-->
+                    <div class="corpo-calcular">
+                        <input type="number" id="meuNumero" placeholder="Digite um número" value="1" max="23">
+                        <button class="botao-calcular" onclick="calcularReinoDoAmanha()">Calcular</button>
+                    </div>
+
+                    <form action="../compra-finalizada.html" method="get">
+
+
+                        <h1>Pagamento</h1>
+
+                        <label for="campo-nome-completo">Nome completo</label>
+                        <input type="text" required id="campo-nome-completo" name="nome-completo"
+                            placeholder="Digite seu nome e sobrenome" minlength="3" maxlength="40">
+
+
+                        <label for="campo-numero-do-cartao">Número do cartão</label>
+                        <input type="text" required id="campo-numero-do-cartao" name="numero-do-cartao"
+                            placeholder="0000 0000 0000 0000" minlength="19" maxlength="19">
+
+
+                        <label for="campo-vencimento-cartao">Data de vencimento</label>
+                        <input type="month" required id="campo-vencimento-cartao" name="vencimento-cartao">
+
+
+                        <label for="campo-cvv-cartao">Código de segurança (CVV)</label>
+                        <input type="tel" required id="campo-cvv-cartao" name="cvv-cartao" minlength="3" maxlength="3"
+                            placeholder="000">
+
+
+                        <h2>Tipo de cartão</h2>
+                        <div>
+                            <input type="radio" required id="campo-cartao-mastercard" name="tipo-cartao"
+                                value="mastercard">
+                            <label for="campo-cartao-mastercard">MasterCard</label>
+
+                            <input type="radio" required id="campo-cartao-visa" name="tipo-cartao" value="visa">
+                            <label for="campo-cartao-visa">Visa</label>
+                        </div>
+
+                        <!--Mostra o resultado aqui!!!!!-->
+                        <p>R$ <span id="resultadoReinoDoAmanha"></span></p>
+
+                        <div class="botao-comprar">
+                            <button type="submit">Finalizar</button>
+                        </div>
+
+                    </form>
+                </div>
+            </main>
+        </div>
+        <footer>
+            <h3>Desenvolvido pela equipe FGC</h3>
+        </footer>
+    </div>
+    <script src="../../js/compra.js"></script>
+</body>
+
+</html>

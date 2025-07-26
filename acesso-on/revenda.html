@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/revenda.css">
+    <link rel="icon" href="../css/assets/francisco-cabeça.png">
+    <title>Revenda</title>
+</head>
+
+<body>
+    <header>
+        <div class="letreiro">
+            <h2>FOR GEEK</h2>
+            <div class="icone"></div>
+            <H2>COMICS</H2>
+        </div>
+        <nav>
+            <a class="nav-botao" href="home.html">Início</a>
+            <a class="nav-botao" href="produtos.html">Produtos</a>
+            <a class="nav-botao" href="contato.html">Contato</a>
+            <a class="nav-botao" href="equipe.html">Equipe</a>
+            <a class="nav-botao" href="sobre.html">Sobre-nós</a>
+            <a id="botao-sair" class="nav-botao" href="../index.html">Sair</a>
+        </nav>
+
+    </header>
+    <main>
+        <form action="revenda-sucesso.html" method="get">
+            <div class="revenda">
+                <h2 id="anuncio">Revenda seus quadrinhos aqui!</h2>
+                <label for="campo-titulo">Titulo do Quadrinho:</label>
+                <input type="text" required id="campo-titulo" name="titulo" minlength="4" max="40">
+            </div>
+
+            <div class="revenda">
+                <label for="campo-capa">Capa:</label>
+                <select name="capa" id="campo-capa" required>
+                    <option value=""></option>
+                    <option value="Mole">Mole</option>
+                    <option value="Dura">Dura</option>
+                </select>
+            </div>
+
+            <div id="#campo-anexo" class="revenda">
+                <label for="campo-anexo">Foto(s) do quadrinho</label>
+                <br>
+                <input type="file" required id="campo-anexo" name="anexo-quadrinho">
+            </div>
+
+            <div class="revenda">
+                <label for="campo-motivo">Motivo da Venda:</label>
+            </div>
+
+            <div class="revenda">
+                <textarea required id="campo-motivo" name="motivo-da-venda" maxlength="5000" cols="50"
+                    rows="10"></textarea>
+            </div>
+
+            <div class="revenda">
+                <label for="campo-estado">Estado do Quadrinho:</label>
+                <select name="estado-do-quadrinho" id="campo-estado" required>
+                    <option value=""></option>
+                    <option value="lacrado">Lacrado</option>
+                    <option value="usado">Usado</option>
+                    <option value="desgastado">Desgastado</option>
+                </select>
+
+                <div class="revenda">
+                    <label for="campo-dano">Páginas Danificadas?</label>
+                    <input type="number" id="campo-dano" name="paginas-danificadas" value="0" min="0" max="40">
+                </div>
+
+                <div class="revenda">
+                    <label for="campo-valor">Valor Desejado:</label>
+                    <input type="text" required id="campo-valor" name="valor-desejado" min="1" max="400"
+                        placeholder="R$ 00,00">
+                </div>
+
+                <div class="botao">
+                    <button class="postar" type="submit">Postar</button>
+                </div>
+        </form>
+    </main>
+</body>
+<footer>
+    <h3>Desenvolvido pela equipe FGC</h3>
+</footer>
+
+</html>

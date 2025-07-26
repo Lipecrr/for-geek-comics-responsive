@@ -1,0 +1,62 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    color: #fff;
+    justify-content: center;
+}
+
+form {
+    background-color: #442222;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: #d62839 0px 0px 10px, #d62839 0px 0px 200px;
+    text-align: start;
+    align-items: center;
+    display: inline-block;  
+    margin-top: 100px;
+    margin-bottom: 200px;    
+}
+
+label {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+input {
+    border-radius: 5px;
+    padding: 5px;
+}
+
+textarea {
+    border-radius: 5px;
+    padding: 5px;
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+
+.cadastro {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.enviar {
+    font-size: larger;
+    border-radius: 10px;
+    background-color: #5a9d45;
+    color: #fff;
+    border: 2px solid #000000;
+    padding: 4px;   
+}
+
+.enviar:hover {
+  background-color: #35607d;
+  cursor: pointer;
+}
+
+.botao {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}

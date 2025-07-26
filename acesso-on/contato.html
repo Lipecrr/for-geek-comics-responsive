@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/contato.css">
+    <link rel="icon" href="../css/assets/francisco-cabeça.png">
+    <title>Contato</title>
+</head>
+
+<body>
+    <header>
+        <div class="letreiro">
+            <h2>FOR GEEK</h2>
+            <div class="icone"></div>
+            <H2>COMICS</H2>
+        </div>
+        <nav>
+            <a class="nav-botao" href="home.html">Início</a>
+            <a class="nav-botao" href="produtos.html">Produtos</a>
+            <a class="nav-botao" href="revenda.html">Revenda</a>
+            <a class="nav-botao" href="equipe.html">Equipe</a>
+            <a class="nav-botao" href="sobre.html">Sobre-nós</a>
+            <a id="botao-sair" class="nav-botao" href="../index.html">Sair</a>
+        </nav>
+    </header>
+    <div class="contato">
+        <h1>Entre Em Contato Com o Nosso Time!</h1>
+        <ul>
+            <li>WhatsApp: +55 (47) 91938-1962</li>
+            <li>E-Mail: suporte.fgc@hotmail.com</li>
+        </ul>
+        <h2>Fale Conosco:</h2>
+        <form action="home.html" method="get">
+            <div class="form-contato">
+                <label for="campo-nome">Nome:</label>
+                <input type="text" required minlength="3" maxlength="40" id="campo-nome" name="nome"
+                    placeholder="Nome e sobrenome.">
+            </div>
+
+            <div class="form-contato">
+                <label for="campo-email">E-Mail:</label>
+                <input type="email" required name="e-mail" id="campo-email" placeholder="Digite seu e-mail aqui.">
+            </div>
+
+            <div class="form-contato">
+                <label for="campo-cel">Celular:</label>
+                <input type="tel" required id="campo-cel" name="celular" minlength="13" maxlength="13"
+                    title="XX XXXXX-XXXX" placeholder="00 00000-0000">
+            </div>
+
+            <div class="form-contato">
+                <label for="campo-motivo-contato">Motivo do Contato:</label>
+            </div>
+
+            <textarea name="motivo-contato" required rows="20" cols="50" id="campo-motivo-contato"></textarea>
+
+            <div class="form-contato">
+                <button id="botao-contato" type="submit">Enviar</button>
+            </div>
+    </div>
+    </form>
+
+</body>
+<footer>
+    <h3>Desenvolvido pela equipe FGC</h3>
+</footer>
+
+</html>

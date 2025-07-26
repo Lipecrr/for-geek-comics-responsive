@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/contato.css">
+    <link rel="icon" href="../css/assets/francisco-cabeça.png">
+    <title>Contato</title>
+</head>
+
+<body>
+    <div id="page-container">
+        <div id="content-wrap">
+            <header>
+                <div class="letreiro">
+                    <h2>FOR GEEK</h2>
+                    <div class="icone"></div>
+                    <H2>COMICS</H2>
+                </div>
+                <nav>
+                    <ul class="lista-nav-botao">
+                        <li><a class="nav-botao" href="../index.html">Home</a></li>
+                        <li><a class="nav-botao" href="produtos-off.html">Produtos</a></li>
+                        <li><a class="nav-botao" href="login-revenda.html">Revenda</a></li>
+                        <li><a class="nav-botao" href="contato-off.html">Contato</a></li>
+                        <li><a class="nav-botao" href="equipe-off.html">Equipe</a></li>
+                        <li><a class="nav-botao" href="sobre-nos-off.html">Sobre-nós</a></li>
+                        <li><a class="nav-botao" href="login.html">Login</a></li>
+                        <li><a class="nav-botao" href="cadastro.html">Cadastre-se</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <main>
+                <div class="contato">
+                    <h1>Entre Em Contato Com o Nosso Time!</h1>
+                    <div class="corpo-form">
+                        <ul id="lista-contatos">
+                            <li>WhatsApp: +55 (47) 91938-1962</li>
+                            <li>E-Mail: suporte.fgc@hotmail.com</li>
+                        </ul>
+                        <h2>Fale Conosco:</h2>
+                        <form action="../index.html" method="get">
+
+                            <label for="campo-nome">Nome:</label>
+                            <input type="text" required minlength="3" maxlength="40" id="campo-nome" name="nome"
+                                placeholder="Nome e sobrenome.">
+
+                            <label for="campo-email">E-Mail:</label>
+                            <input type="email" required name="e-mail" id="campo-email"
+                                placeholder="Digite seu e-mail aqui.">
+
+
+
+                            <label for="campo-cel">Celular:</label>
+                            <input type="tel" required id="campo-cel" name="celular" minlength="13" maxlength="13"
+                                title="XX XXXXX-XXXX" placeholder="00 00000-0000">
+
+
+
+                            <label for="campo-motivo-contato">Motivo do Contato:</label>
+
+
+                            <textarea name="motivo-contato" required rows="20" cols="50"
+                                id="campo-motivo-contato"></textarea>
+
+                            <div class="botao-enviar">
+                                <button id="botao-contato" type="submit">Enviar</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </main>
+        </div>
+        <footer>
+            <h3>Desenvolvido pela equipe FGC</h3>
+        </footer>
+    </div>
+</body>
+
+</html>
