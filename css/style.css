@@ -27,6 +27,8 @@ nav {
    display: flex;
    justify-content: center;
    box-shadow: #d62839 0px 0px 1px, #d62839 0px 0px 1px;
+   position: fixed;
+   top: 0;
 }
 
 footer {
@@ -67,12 +69,24 @@ footer {
    color: #fff;
    background-color: #310313;
    width: 100%;
+   padding-top: 50px;
+   box-shadow: #d62839 0px 0px 10px, #d62839 0px 0px 100px;
+}
+
+#luz {
+   text-shadow: #00fd15 0px 0px 20px;
+
+}
+
+#trevas {
+   text-shadow: #f30404 0px 0px 20px;
 }
 
 .lista-nav-botao-desktop {
    display: flex;
    flex-direction: row;
    list-style: none;
+
 }
 
 .navbar-botao {
@@ -93,7 +107,7 @@ footer {
 
 .nav-botao:hover {
    background-color: #3d0719;
-   box-shadow: #d62839 0px 0px 1px, #d62839 0px 0px 50px;
+   box-shadow: #d62839 0px 2px 0px;
 
 }
 
@@ -116,7 +130,7 @@ footer {
 #botao-sair {
    background-color: #cd2737ac;
    border-radius: 5px;
-   margin-left: 50px;
+   margin-left: 60px;
 }
 
 #botao-sair:hover {
@@ -145,6 +159,7 @@ footer {
    flex-direction: column;
    align-items: center;
    font-size: 1.8rem;
+   opacity: 0.8;
 }
 
 .lista-nav-botao-mobile {
@@ -199,6 +214,7 @@ footer {
    justify-content: center;
    text-align: center;
    color: #fff;
+   padding-top: 50px;
 }
 
 .letreiro-mobile h2 {
@@ -255,6 +271,10 @@ footer {
 
    .icone-mobile {
       display: block;
-
    }
+
+   #botao-sair {
+
+   margin-left: 20px;
+}
 }

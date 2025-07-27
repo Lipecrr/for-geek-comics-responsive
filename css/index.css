@@ -3,18 +3,13 @@ body {
     padding: 0px;
     color: #fff;
     text-align: center;
-    background-image: url(assets/fundo4.png) ;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 main {
-    padding: 100px 70px;
-}
-
-h1 {
-    margin-top: 50px;
-    margin-bottom: 50px; 
+    padding: 50px 70px;
+    padding-bottom: 200px;
 }
 
 p {
@@ -25,14 +20,46 @@ p {
 img {
     border-radius: 10px;
     border: 2px solid #070707;
-    box-shadow: #d62839 0px 0px 10px, #d62839 0px 0px 200px;
+    box-shadow: #d62839 0px 0px 1px, #d62839 0px 0px 10px;
 
+}
+
+.noticias {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.noticias h1 {
+    padding: 50px 0px;
+    font-size: 40px;
+}
+
+.noticia {
+    background-color: #442222;
+    width: 60%;
+    border-radius: 10px;
+    box-shadow: #d62839 0px 0px 1px, #d62839 0px 0px 10px;
+    padding-bottom: 30px;
+}
+
+.noticia h2 {
+    padding: 50px 0;
+    font-size: 30px;
 }
 
 @media(max-width: 768px) {
 
-      main {
-      padding: 100px 30px;
-   }
-}
+    main {
+        padding: 50px 30px;
+    }
 
+    .noticia {
+
+    width: 90%;
+
+
+}
+}
